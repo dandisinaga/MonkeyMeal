@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5563D05F287C139B00FD8F5C /* FDUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563D05E287C139B00FD8F5C /* FDUI.framework */; };
+		5563D060287C139B00FD8F5C /* FDUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5563D05E287C139B00FD8F5C /* FDUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		556E13A2284F8E650053D00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A1284F8E650053D00A /* AppDelegate.swift */; };
 		556E13A4284F8E650053D00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A3284F8E650053D00A /* SceneDelegate.swift */; };
 		556E13AB284F8E680053D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E13AA284F8E680053D00A /* Assets.xcassets */; };
@@ -44,7 +46,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5563D03B287C0D5B00FD8F5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5563D060287C139B00FD8F5C /* FDUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5563D05E287C139B00FD8F5C /* FDUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FDUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E139E284F8E650053D00A /* MonkeyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E13A1284F8E650053D00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		556E13A3284F8E650053D00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5563D05F287C139B00FD8F5C /* FDUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +112,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5563D05D287C139B00FD8F5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5563D05E287C139B00FD8F5C /* FDUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		556E1395284F8E650053D00A = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +127,7 @@
 				556E13B7284F8E680053D00A /* MonkeyMealTests */,
 				556E13C1284F8E680053D00A /* MonkeyMealUITests */,
 				556E139F284F8E650053D00A /* Products */,
+				5563D05D287C139B00FD8F5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +239,7 @@
 				556E139A284F8E650053D00A /* Sources */,
 				556E139B284F8E650053D00A /* Frameworks */,
 				556E139C284F8E650053D00A /* Resources */,
+				5563D03B287C0D5B00FD8F5C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

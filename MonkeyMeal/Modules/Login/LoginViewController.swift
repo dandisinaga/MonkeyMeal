@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import FDUI
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
+    @IBOutlet weak var passwordTextField: FDTextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
