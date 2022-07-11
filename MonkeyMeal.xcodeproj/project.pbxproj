@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		556E13A2284F8E650053D00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A1284F8E650053D00A /* AppDelegate.swift */; };
+		556E13A4284F8E650053D00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A3284F8E650053D00A /* SceneDelegate.swift */; };
+		556E13AB284F8E680053D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E13AA284F8E680053D00A /* Assets.xcassets */; };
+		556E13AE284F8E680053D00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E13AC284F8E680053D00A /* LaunchScreen.storyboard */; };
+		556E13B9284F8E680053D00A /* MonkeyMealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13B8284F8E680053D00A /* MonkeyMealTests.swift */; };
+		556E13C3284F8E680053D00A /* MonkeyMealUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13C2284F8E680053D00A /* MonkeyMealUITests.swift */; };
+		556E13C5284F8E680053D00A /* MonkeyMealUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13C4284F8E680053D00A /* MonkeyMealUITestsLaunchTests.swift */; };
+		556E13D4284F91910053D00A /* Ftux.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E13D3284F91910053D00A /* Ftux.storyboard */; };
+		556E13D6284F92A40053D00A /* FtuxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13D5284F92A40053D00A /* FtuxViewController.swift */; };
+		556E13D928509A3A0053D00A /* FtuxProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13D828509A3A0053D00A /* FtuxProvider.swift */; };
+		556E13DC2850A0670053D00A /* FDObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13DB2850A0670053D00A /* FDObservable.swift */; };
+		556E13DF2850A0820053D00A /* Ftux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13DE2850A0820053D00A /* Ftux.swift */; };
+		556E13E1285B33700053D00A /* FtuxViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13E0285B33700053D00A /* FtuxViewCell.swift */; };
+		556E13E3285CB2E20053D00A /* FtuxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13E2285CB2E20053D00A /* FtuxViewModel.swift */; };
+		556E14AD28654C800053D00A /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556E14AC28654C800053D00A /* Login.storyboard */; };
+		556E14AF28654CBB0053D00A /* LoginLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */; };
+		55718B8E2865616900BF2A20 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55718B8D2865616900BF2A20 /* UIColorExtensions.swift */; };
+		55718B902865650B00BF2A20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55718B8F2865650B00BF2A20 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		556E13B5284F8E680053D00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556E1396284F8E650053D00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556E139D284F8E650053D00A;
+			remoteInfo = MonkeyMeal;
+		};
+		556E13BF284F8E680053D00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 556E1396284F8E650053D00A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556E139D284F8E650053D00A;
+			remoteInfo = MonkeyMeal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		556E139E284F8E650053D00A /* MonkeyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		556E13A1284F8E650053D00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		556E13A3284F8E650053D00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		556E13AA284F8E680053D00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		556E13AD284F8E680053D00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		556E13AF284F8E680053D00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556E13B4284F8E680053D00A /* MonkeyMealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyMealTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556E13B8284F8E680053D00A /* MonkeyMealTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyMealTests.swift; sourceTree = "<group>"; };
+		556E13BE284F8E680053D00A /* MonkeyMealUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonkeyMealUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		556E13C2284F8E680053D00A /* MonkeyMealUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyMealUITests.swift; sourceTree = "<group>"; };
+		556E13C4284F8E680053D00A /* MonkeyMealUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonkeyMealUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		556E13D3284F91910053D00A /* Ftux.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Ftux.storyboard; sourceTree = "<group>"; };
+		556E13D5284F92A40053D00A /* FtuxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewController.swift; sourceTree = "<group>"; };
+		556E13D828509A3A0053D00A /* FtuxProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxProvider.swift; sourceTree = "<group>"; };
+		556E13DB2850A0670053D00A /* FDObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDObservable.swift; sourceTree = "<group>"; };
+		556E13DE2850A0820053D00A /* Ftux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ftux.swift; sourceTree = "<group>"; };
+		556E13E0285B33700053D00A /* FtuxViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewCell.swift; sourceTree = "<group>"; };
+		556E13E2285CB2E20053D00A /* FtuxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FtuxViewModel.swift; sourceTree = "<group>"; };
+		556E14AC28654C800053D00A /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLandingViewController.swift; sourceTree = "<group>"; };
+		55718B8D2865616900BF2A20 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		55718B8F2865650B00BF2A20 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		556E139B284F8E650053D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13B1284F8E680053D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13BB284F8E680053D00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		556E1395284F8E650053D00A = {
+			isa = PBXGroup;
+			children = (
+				556E13A0284F8E650053D00A /* MonkeyMeal */,
+				556E13B7284F8E680053D00A /* MonkeyMealTests */,
+				556E13C1284F8E680053D00A /* MonkeyMealUITests */,
+				556E139F284F8E650053D00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		556E139F284F8E650053D00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				556E139E284F8E650053D00A /* MonkeyMeal.app */,
+				556E13B4284F8E680053D00A /* MonkeyMealTests.xctest */,
+				556E13BE284F8E680053D00A /* MonkeyMealUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		556E13A0284F8E650053D00A /* MonkeyMeal */ = {
+			isa = PBXGroup;
+			children = (
+				55718B8C2865615300BF2A20 /* Extensions */,
+				556E13D7285099FD0053D00A /* Providers */,
+				556E13DA2850A04F0053D00A /* Models */,
+				556E13D1284F91590053D00A /* Modules */,
+				556E13A1284F8E650053D00A /* AppDelegate.swift */,
+				556E13A3284F8E650053D00A /* SceneDelegate.swift */,
+				556E13AA284F8E680053D00A /* Assets.xcassets */,
+				556E13AC284F8E680053D00A /* LaunchScreen.storyboard */,
+				556E13AF284F8E680053D00A /* Info.plist */,
+			);
+			path = MonkeyMeal;
+			sourceTree = "<group>";
+		};
+		556E13B7284F8E680053D00A /* MonkeyMealTests */ = {
+			isa = PBXGroup;
+			children = (
+				556E13B8284F8E680053D00A /* MonkeyMealTests.swift */,
+			);
+			path = MonkeyMealTests;
+			sourceTree = "<group>";
+		};
+		556E13C1284F8E680053D00A /* MonkeyMealUITests */ = {
+			isa = PBXGroup;
+			children = (
+				556E13C2284F8E680053D00A /* MonkeyMealUITests.swift */,
+				556E13C4284F8E680053D00A /* MonkeyMealUITestsLaunchTests.swift */,
+			);
+			path = MonkeyMealUITests;
+			sourceTree = "<group>";
+		};
+		556E13D1284F91590053D00A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				556E14AB28654C610053D00A /* Login */,
+				556E13D2284F916C0053D00A /* Ftux */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		556E13D2284F916C0053D00A /* Ftux */ = {
+			isa = PBXGroup;
+			children = (
+				556E13D3284F91910053D00A /* Ftux.storyboard */,
+				556E13E0285B33700053D00A /* FtuxViewCell.swift */,
+				556E13D5284F92A40053D00A /* FtuxViewController.swift */,
+				556E13E2285CB2E20053D00A /* FtuxViewModel.swift */,
+			);
+			path = Ftux;
+			sourceTree = "<group>";
+		};
+		556E13D7285099FD0053D00A /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				556E13D828509A3A0053D00A /* FtuxProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		556E13DA2850A04F0053D00A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				556E13DB2850A0670053D00A /* FDObservable.swift */,
+				556E13DE2850A0820053D00A /* Ftux.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		556E14AB28654C610053D00A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				556E14AC28654C800053D00A /* Login.storyboard */,
+				556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */,
+				55718B8F2865650B00BF2A20 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		55718B8C2865615300BF2A20 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				55718B8D2865616900BF2A20 /* UIColorExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		556E139D284F8E650053D00A /* MonkeyMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556E13C8284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMeal" */;
+			buildPhases = (
+				556E139A284F8E650053D00A /* Sources */,
+				556E139B284F8E650053D00A /* Frameworks */,
+				556E139C284F8E650053D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonkeyMeal;
+			productName = MonkeyMeal;
+			productReference = 556E139E284F8E650053D00A /* MonkeyMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		556E13B3284F8E680053D00A /* MonkeyMealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556E13CB284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealTests" */;
+			buildPhases = (
+				556E13B0284F8E680053D00A /* Sources */,
+				556E13B1284F8E680053D00A /* Frameworks */,
+				556E13B2284F8E680053D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556E13B6284F8E680053D00A /* PBXTargetDependency */,
+			);
+			name = MonkeyMealTests;
+			productName = MonkeyMealTests;
+			productReference = 556E13B4284F8E680053D00A /* MonkeyMealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		556E13BD284F8E680053D00A /* MonkeyMealUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 556E13CE284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealUITests" */;
+			buildPhases = (
+				556E13BA284F8E680053D00A /* Sources */,
+				556E13BB284F8E680053D00A /* Frameworks */,
+				556E13BC284F8E680053D00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				556E13C0284F8E680053D00A /* PBXTargetDependency */,
+			);
+			name = MonkeyMealUITests;
+			productName = MonkeyMealUITests;
+			productReference = 556E13BE284F8E680053D00A /* MonkeyMealUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		556E1396284F8E650053D00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					556E139D284F8E650053D00A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					556E13B3284F8E680053D00A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 556E139D284F8E650053D00A;
+					};
+					556E13BD284F8E680053D00A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 556E139D284F8E650053D00A;
+					};
+				};
+			};
+			buildConfigurationList = 556E1399284F8E650053D00A /* Build configuration list for PBXProject "MonkeyMeal" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 556E1395284F8E650053D00A;
+			productRefGroup = 556E139F284F8E650053D00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				556E139D284F8E650053D00A /* MonkeyMeal */,
+				556E13B3284F8E680053D00A /* MonkeyMealTests */,
+				556E13BD284F8E680053D00A /* MonkeyMealUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		556E139C284F8E650053D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556E14AD28654C800053D00A /* Login.storyboard in Resources */,
+				556E13AE284F8E680053D00A /* LaunchScreen.storyboard in Resources */,
+				556E13D4284F91910053D00A /* Ftux.storyboard in Resources */,
+				556E13AB284F8E680053D00A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13B2284F8E680053D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13BC284F8E680053D00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		556E139A284F8E650053D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556E13D6284F92A40053D00A /* FtuxViewController.swift in Sources */,
+				556E13E3285CB2E20053D00A /* FtuxViewModel.swift in Sources */,
+				556E13DC2850A0670053D00A /* FDObservable.swift in Sources */,
+				556E13A2284F8E650053D00A /* AppDelegate.swift in Sources */,
+				556E13A4284F8E650053D00A /* SceneDelegate.swift in Sources */,
+				556E13DF2850A0820053D00A /* Ftux.swift in Sources */,
+				556E13E1285B33700053D00A /* FtuxViewCell.swift in Sources */,
+				556E14AF28654CBB0053D00A /* LoginLandingViewController.swift in Sources */,
+				556E13D928509A3A0053D00A /* FtuxProvider.swift in Sources */,
+				55718B8E2865616900BF2A20 /* UIColorExtensions.swift in Sources */,
+				55718B902865650B00BF2A20 /* LoginViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13B0284F8E680053D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556E13B9284F8E680053D00A /* MonkeyMealTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556E13BA284F8E680053D00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556E13C5284F8E680053D00A /* MonkeyMealUITestsLaunchTests.swift in Sources */,
+				556E13C3284F8E680053D00A /* MonkeyMealUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		556E13B6284F8E680053D00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556E139D284F8E650053D00A /* MonkeyMeal */;
+			targetProxy = 556E13B5284F8E680053D00A /* PBXContainerItemProxy */;
+		};
+		556E13C0284F8E680053D00A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556E139D284F8E650053D00A /* MonkeyMeal */;
+			targetProxy = 556E13BF284F8E680053D00A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		556E13AC284F8E680053D00A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				556E13AD284F8E680053D00A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		556E13C6284F8E680053D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		556E13C7284F8E680053D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		556E13C9284F8E680053D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonkeyMeal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meal Monkey";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Ftux;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		556E13CA284F8E680053D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MonkeyMeal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meal Monkey";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Ftux;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		556E13CC284F8E680053D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonkeyMeal.app/MonkeyMeal";
+			};
+			name = Debug;
+		};
+		556E13CD284F8E680053D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMealTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonkeyMeal.app/MonkeyMeal";
+			};
+			name = Release;
+		};
+		556E13CF284F8E680053D00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonkeyMeal;
+			};
+			name = Debug;
+		};
+		556E13D0284F8E680053D00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 373A73HKHD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dandisinaga.MonkeyMealUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonkeyMeal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		556E1399284F8E650053D00A /* Build configuration list for PBXProject "MonkeyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556E13C6284F8E680053D00A /* Debug */,
+				556E13C7284F8E680053D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556E13C8284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556E13C9284F8E680053D00A /* Debug */,
+				556E13CA284F8E680053D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556E13CB284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556E13CC284F8E680053D00A /* Debug */,
+				556E13CD284F8E680053D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		556E13CE284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				556E13CF284F8E680053D00A /* Debug */,
+				556E13D0284F8E680053D00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 556E1396284F8E650053D00A /* Project object */;
+}
