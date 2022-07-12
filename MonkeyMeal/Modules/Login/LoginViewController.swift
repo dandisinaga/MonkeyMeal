@@ -11,6 +11,11 @@ import FDUI
 class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: FDTextField!
+    @IBOutlet weak var loginButton: FDPrimaryButton!
+    @IBOutlet weak var forgotButton: UIButton!
+    @IBOutlet weak var fbButton: FDPrimaryButton!
+    @IBOutlet weak var googleButton: FDPrimaryButton!
+    @IBOutlet weak var signUpButton: UIButton!
     
     
     override func viewDidLoad() {
@@ -21,7 +26,19 @@ class LoginViewController: UIViewController {
     
     func setup() {
     }
-
+    @IBAction func loginButtonTapped(_ sender: Any) {
+    }
+    @IBAction func forgotButtonTapped(_ sender: Any) {
+    }
+    @IBAction func fbButtonTapped(_ sender: Any) {
+    }
+    @IBAction func googleButtonTapped(_ sender: Any) {
+    }
+    @IBAction func signUpButtonTapped(_ sender: Any) {
+        showSignUpViewController()
+        removeFromParent()
+    }
+    
 }
 // MARK: - UIViewController
 extension UIViewController {

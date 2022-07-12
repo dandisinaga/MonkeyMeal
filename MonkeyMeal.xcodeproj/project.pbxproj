@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0820FEE22FB577C0274988 /* Pods_MonkeyMealTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384F7AFEB78A30F440C7697E /* Pods_MonkeyMealTests.framework */; };
 		5563D05F287C139B00FD8F5C /* FDUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5563D05E287C139B00FD8F5C /* FDUI.framework */; };
 		5563D060287C139B00FD8F5C /* FDUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5563D05E287C139B00FD8F5C /* FDUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5563D062287D215000FD8F5C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563D061287D215000FD8F5C /* SignUpViewController.swift */; };
 		556E13A2284F8E650053D00A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A1284F8E650053D00A /* AppDelegate.swift */; };
 		556E13A4284F8E650053D00A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E13A3284F8E650053D00A /* SceneDelegate.swift */; };
 		556E13AB284F8E680053D00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556E13AA284F8E680053D00A /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		556E14AF28654CBB0053D00A /* LoginLandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */; };
 		55718B8E2865616900BF2A20 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55718B8D2865616900BF2A20 /* UIColorExtensions.swift */; };
 		55718B902865650B00BF2A20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55718B8F2865650B00BF2A20 /* LoginViewController.swift */; };
+		765DAE3C18FE446764C89B59 /* Pods_MonkeyMeal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7724EA59C5FF5C713F7F73CF /* Pods_MonkeyMeal.framework */; };
+		A1430029D66458E708C4CA86 /* Pods_MonkeyMeal_MonkeyMealUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85EA324F3FDD249779814A6 /* Pods_MonkeyMeal_MonkeyMealUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +65,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		384F7AFEB78A30F440C7697E /* Pods_MonkeyMealTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonkeyMealTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5563D05E287C139B00FD8F5C /* FDUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FDUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5563D061287D215000FD8F5C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		556E139E284F8E650053D00A /* MonkeyMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonkeyMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		556E13A1284F8E650053D00A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		556E13A3284F8E650053D00A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +90,14 @@
 		556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLandingViewController.swift; sourceTree = "<group>"; };
 		55718B8D2865616900BF2A20 /* UIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
 		55718B8F2865650B00BF2A20 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		58D65B9C94E369F28A535486 /* Pods-MonkeyMeal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMeal.debug.xcconfig"; path = "Target Support Files/Pods-MonkeyMeal/Pods-MonkeyMeal.debug.xcconfig"; sourceTree = "<group>"; };
+		5D572C9EE6AD758CC7FD9AD2 /* Pods-MonkeyMealTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMealTests.release.xcconfig"; path = "Target Support Files/Pods-MonkeyMealTests/Pods-MonkeyMealTests.release.xcconfig"; sourceTree = "<group>"; };
+		6EFC0D6135CB8D69B1F47EB8 /* Pods-MonkeyMeal-MonkeyMealUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMeal-MonkeyMealUITests.release.xcconfig"; path = "Target Support Files/Pods-MonkeyMeal-MonkeyMealUITests/Pods-MonkeyMeal-MonkeyMealUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7724EA59C5FF5C713F7F73CF /* Pods_MonkeyMeal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonkeyMeal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BE411642038922118D496C /* Pods-MonkeyMealTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMealTests.debug.xcconfig"; path = "Target Support Files/Pods-MonkeyMealTests/Pods-MonkeyMealTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B85EA324F3FDD249779814A6 /* Pods_MonkeyMeal_MonkeyMealUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MonkeyMeal_MonkeyMealUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD79176874E7E95A251779A7 /* Pods-MonkeyMeal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMeal.release.xcconfig"; path = "Target Support Files/Pods-MonkeyMeal/Pods-MonkeyMeal.release.xcconfig"; sourceTree = "<group>"; };
+		F3EDC0C5073B0DC75EB09008 /* Pods-MonkeyMeal-MonkeyMealUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MonkeyMeal-MonkeyMealUITests.debug.xcconfig"; path = "Target Support Files/Pods-MonkeyMeal-MonkeyMealUITests/Pods-MonkeyMeal-MonkeyMealUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +106,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5563D05F287C139B00FD8F5C /* FDUI.framework in Frameworks */,
+				765DAE3C18FE446764C89B59 /* Pods_MonkeyMeal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0820FEE22FB577C0274988 /* Pods_MonkeyMealTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1430029D66458E708C4CA86 /* Pods_MonkeyMeal_MonkeyMealUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +133,9 @@
 			isa = PBXGroup;
 			children = (
 				5563D05E287C139B00FD8F5C /* FDUI.framework */,
+				7724EA59C5FF5C713F7F73CF /* Pods_MonkeyMeal.framework */,
+				B85EA324F3FDD249779814A6 /* Pods_MonkeyMeal_MonkeyMealUITests.framework */,
+				384F7AFEB78A30F440C7697E /* Pods_MonkeyMealTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +148,7 @@
 				556E13C1284F8E680053D00A /* MonkeyMealUITests */,
 				556E139F284F8E650053D00A /* Products */,
 				5563D05D287C139B00FD8F5C /* Frameworks */,
+				8818CAF131BFA30F2F183457 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,6 +238,7 @@
 				556E14AC28654C800053D00A /* Login.storyboard */,
 				556E14AE28654CBB0053D00A /* LoginLandingViewController.swift */,
 				55718B8F2865650B00BF2A20 /* LoginViewController.swift */,
+				5563D061287D215000FD8F5C /* SignUpViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -229,6 +251,20 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		8818CAF131BFA30F2F183457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58D65B9C94E369F28A535486 /* Pods-MonkeyMeal.debug.xcconfig */,
+				DD79176874E7E95A251779A7 /* Pods-MonkeyMeal.release.xcconfig */,
+				F3EDC0C5073B0DC75EB09008 /* Pods-MonkeyMeal-MonkeyMealUITests.debug.xcconfig */,
+				6EFC0D6135CB8D69B1F47EB8 /* Pods-MonkeyMeal-MonkeyMealUITests.release.xcconfig */,
+				88BE411642038922118D496C /* Pods-MonkeyMealTests.debug.xcconfig */,
+				5D572C9EE6AD758CC7FD9AD2 /* Pods-MonkeyMealTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,10 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 556E13C8284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMeal" */;
 			buildPhases = (
+				3C67291BF698EAA6ACF2C9CD /* [CP] Check Pods Manifest.lock */,
 				556E139A284F8E650053D00A /* Sources */,
 				556E139B284F8E650053D00A /* Frameworks */,
 				556E139C284F8E650053D00A /* Resources */,
 				5563D03B287C0D5B00FD8F5C /* Embed Frameworks */,
+				3CA4CEF7607D91E661B82943 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 556E13CB284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealTests" */;
 			buildPhases = (
+				EC4F1F40A25B1C7BE8B09121 /* [CP] Check Pods Manifest.lock */,
 				556E13B0284F8E680053D00A /* Sources */,
 				556E13B1284F8E680053D00A /* Frameworks */,
 				556E13B2284F8E680053D00A /* Resources */,
@@ -272,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 556E13CE284F8E680053D00A /* Build configuration list for PBXNativeTarget "MonkeyMealUITests" */;
 			buildPhases = (
+				E682933827004A21675E75AD /* [CP] Check Pods Manifest.lock */,
 				556E13BA284F8E680053D00A /* Sources */,
 				556E13BB284F8E680053D00A /* Frameworks */,
 				556E13BC284F8E680053D00A /* Resources */,
+				7980843A6516A51EC10A461E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -357,6 +398,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C67291BF698EAA6ACF2C9CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyMeal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CA4CEF7607D91E661B82943 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal/Pods-MonkeyMeal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal/Pods-MonkeyMeal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal/Pods-MonkeyMeal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7980843A6516A51EC10A461E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal-MonkeyMealUITests/Pods-MonkeyMeal-MonkeyMealUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal-MonkeyMealUITests/Pods-MonkeyMeal-MonkeyMealUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MonkeyMeal-MonkeyMealUITests/Pods-MonkeyMeal-MonkeyMealUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E682933827004A21675E75AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyMeal-MonkeyMealUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC4F1F40A25B1C7BE8B09121 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MonkeyMealTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		556E139A284F8E650053D00A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -368,6 +512,7 @@
 				556E13A2284F8E650053D00A /* AppDelegate.swift in Sources */,
 				556E13A4284F8E650053D00A /* SceneDelegate.swift in Sources */,
 				556E13DF2850A0820053D00A /* Ftux.swift in Sources */,
+				5563D062287D215000FD8F5C /* SignUpViewController.swift in Sources */,
 				556E13E1285B33700053D00A /* FtuxViewCell.swift in Sources */,
 				556E14AF28654CBB0053D00A /* LoginLandingViewController.swift in Sources */,
 				556E13D928509A3A0053D00A /* FtuxProvider.swift in Sources */,
@@ -536,6 +681,7 @@
 		};
 		556E13C9284F8E680053D00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58D65B9C94E369F28A535486 /* Pods-MonkeyMeal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -567,6 +713,7 @@
 		};
 		556E13CA284F8E680053D00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD79176874E7E95A251779A7 /* Pods-MonkeyMeal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -598,6 +745,7 @@
 		};
 		556E13CC284F8E680053D00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88BE411642038922118D496C /* Pods-MonkeyMealTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -618,6 +766,7 @@
 		};
 		556E13CD284F8E680053D00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D572C9EE6AD758CC7FD9AD2 /* Pods-MonkeyMealTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -638,6 +787,7 @@
 		};
 		556E13CF284F8E680053D00A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3EDC0C5073B0DC75EB09008 /* Pods-MonkeyMeal-MonkeyMealUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -656,6 +806,7 @@
 		};
 		556E13D0284F8E680053D00A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EFC0D6135CB8D69B1F47EB8 /* Pods-MonkeyMeal-MonkeyMealUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

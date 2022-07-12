@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FDUI
 
 class LoginLandingViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
@@ -24,6 +25,9 @@ class LoginLandingViewController: UIViewController {
     @IBAction func loginButtonTapped(_ sender: Any) {
         showLoginViewController()
     }
+    @IBAction func registerButtonTapped(_ sender: Any) {
+        showSignUpViewController()
+    }
 }
 
 // MARK: - UIViewController
@@ -36,8 +40,9 @@ extension UIViewController {
         let windowScene = scenes.first as! UIWindowScene
         let window = windowScene.windows.first!
         
-        let navigtaionController = UINavigationController(rootViewController: viewController)
+        let navigtaionController = FDNavigationController(rootViewController: viewController)
         navigtaionController.isNavigationBarHidden = true
+        
         window.rootViewController = navigtaionController
     }
 }
