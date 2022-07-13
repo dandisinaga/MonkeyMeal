@@ -1,0 +1,6 @@
+framework module Pods_MonkeyMealTests {
+  umbrella header "Pods-MonkeyMealTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

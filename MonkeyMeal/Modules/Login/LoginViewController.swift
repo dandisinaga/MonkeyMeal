@@ -27,6 +27,7 @@ class LoginViewController: UIViewController {
     func setup() {
     }
     @IBAction func loginButtonTapped(_ sender: Any) {
+        
     }
     @IBAction func forgotButtonTapped(_ sender: Any) {
     }

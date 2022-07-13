@@ -14,6 +14,8 @@
 		5563D05C287C103700FD8F5C /* FDTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563D05B287C103700FD8F5C /* FDTextField.swift */; };
 		55BCCF24287D289F00FD9E31 /* FDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BCCF23287D289F00FD9E31 /* FDNavigationController.swift */; };
 		55BCCF26287D2CC700FD9E31 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BCCF25287D2CC700FD9E31 /* UIViewControllerExtension.swift */; };
+		55BCCF2A287D438E00FD9E31 /* FDLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BCCF28287D438E00FD9E31 /* FDLoadingViewController.swift */; };
+		55BCCF2B287D438E00FD9E31 /* FDLoadingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BCCF29287D438E00FD9E31 /* FDLoadingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		5563D05B287C103700FD8F5C /* FDTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDTextField.swift; sourceTree = "<group>"; };
 		55BCCF23287D289F00FD9E31 /* FDNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDNavigationController.swift; sourceTree = "<group>"; };
 		55BCCF25287D2CC700FD9E31 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		55BCCF28287D438E00FD9E31 /* FDLoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDLoadingViewController.swift; sourceTree = "<group>"; };
+		55BCCF29287D438E00FD9E31 /* FDLoadingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FDLoadingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 				5563D059287C0FFF00FD8F5C /* FDSecondaryButton.swift */,
 				5563D05B287C103700FD8F5C /* FDTextField.swift */,
 				55BCCF23287D289F00FD9E31 /* FDNavigationController.swift */,
+				55BCCF28287D438E00FD9E31 /* FDLoadingViewController.swift */,
+				55BCCF29287D438E00FD9E31 /* FDLoadingViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -154,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BCCF2B287D438E00FD9E31 /* FDLoadingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +175,7 @@
 				5563D056287C0F6E00FD8F5C /* UIColorExtension.swift in Sources */,
 				55BCCF26287D2CC700FD9E31 /* UIViewControllerExtension.swift in Sources */,
 				5563D05A287C0FFF00FD8F5C /* FDSecondaryButton.swift in Sources */,
+				55BCCF2A287D438E00FD9E31 /* FDLoadingViewController.swift in Sources */,
 				5563D05C287C103700FD8F5C /* FDTextField.swift in Sources */,
 				55BCCF24287D289F00FD9E31 /* FDNavigationController.swift in Sources */,
 			);

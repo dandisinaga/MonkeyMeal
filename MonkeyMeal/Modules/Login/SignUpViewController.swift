@@ -23,16 +23,8 @@ class SignUpViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(_:)), name: UIResponder.keyboardWillShowNotification, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(_:)), name: UIResponder.keyboardWillHideNotification, object: nil)
     }
     
-    @objc func keyboardWillShow(_ sender: Notification) {
-        sender.userInfo
-    }
-    @objc func keyboardWillHide(_ sender: Notification) {
-    }
-
     
     // MARK: - Actions
     @IBAction func viewTapped(_ sender: Any) {
