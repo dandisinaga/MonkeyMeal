@@ -494,6 +494,15 @@
                                                     </button>
                                                 </subviews>
                                             </stackView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCE-Rq-43y">
+                                                <rect key="frame" x="36" y="22.666666666666664" width="46.333333333333343" height="30.666666666666664"/>
+                                                <color key="tintColor" red="0.98823529409999999" green="0.37647058820000001" blue="0.066666666669999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.turn.up.left.fill" catalog="system"/>
+                                                <connections>
+                                                    <action selector="backButtonTapped:" destination="Hvy-fC-jNt" eventType="touchUpInside" id="GJr-Aa-QyX"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <gestureRecognizers/>
@@ -502,6 +511,8 @@
                                             <constraint firstItem="oS0-Lm-hjx" firstAttribute="leading" secondItem="T11-Cy-z8G" secondAttribute="leading" constant="36" id="6Ev-AV-Kyp"/>
                                             <constraint firstItem="49u-P6-zt1" firstAttribute="centerX" secondItem="T11-Cy-z8G" secondAttribute="centerX" id="OKY-93-51h"/>
                                             <constraint firstItem="RBl-8z-ugx" firstAttribute="top" secondItem="T11-Cy-z8G" secondAttribute="top" constant="20" id="PtO-2Y-WNi"/>
+                                            <constraint firstItem="oCE-Rq-43y" firstAttribute="leading" secondItem="T11-Cy-z8G" secondAttribute="leading" constant="36" id="Rbv-se-d0p"/>
+                                            <constraint firstItem="oCE-Rq-43y" firstAttribute="centerY" secondItem="RBl-8z-ugx" secondAttribute="centerY" id="Uha-5J-tjD"/>
                                             <constraint firstAttribute="trailing" secondItem="oS0-Lm-hjx" secondAttribute="trailing" constant="36" id="bjA-8k-kYF"/>
                                             <constraint firstItem="oS0-Lm-hjx" firstAttribute="top" secondItem="49u-P6-zt1" secondAttribute="bottom" constant="36" id="sri-Qh-A0P"/>
                                             <constraint firstItem="KDz-sl-pA0" firstAttribute="centerX" secondItem="T11-Cy-z8G" secondAttribute="centerX" id="vEY-0N-TN9"/>
@@ -593,6 +604,7 @@
     </designables>
     <resources>
         <image name="arrowshape.turn.up.backward.fill" catalog="system" width="128" height="106"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="icn_fb_letter" width="7" height="16"/>
         <image name="icn_google_letter" width="19" height="12"/>
         <image name="img_login" width="375" height="498"/>
